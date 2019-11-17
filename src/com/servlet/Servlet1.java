@@ -21,6 +21,7 @@ public class Servlet1 extends HttpServlet {
 		String password=request.getParameter("pwd");
 		
 		System.out.println("Initail");
+
 		request.setAttribute("uname", name);
 		if(password.contentEquals("Isteer"))
 		{

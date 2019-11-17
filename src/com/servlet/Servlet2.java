@@ -18,6 +18,7 @@ public class Servlet2 extends HttpServlet {
 		protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 			String uname=(String) request.getAttribute("uname");
+			System.out.println("third commit");
 			if(uname!=null)
 			{
 			PrintWriter pw=response.getWriter();
