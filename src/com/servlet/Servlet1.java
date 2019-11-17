@@ -20,6 +20,7 @@ public class Servlet1 extends HttpServlet {
 		String name=request.getParameter("uname");
 		String password=request.getParameter("pwd");
 		
+		System.out.println("Initail");
 		request.setAttribute("uname", name);
 		if(password.contentEquals("Isteer"))
 		{
