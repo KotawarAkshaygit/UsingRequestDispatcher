@@ -21,6 +21,7 @@ public class Servlet1 extends HttpServlet {
 		String password=request.getParameter("pwd");
 		
 		request.setAttribute("uname", name);
+
 		if(password.contentEquals("Isteer"))
 		{
 			RequestDispatcher rd=request.getRequestDispatcher("Servlet2");
